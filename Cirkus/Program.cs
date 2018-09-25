@@ -10,6 +10,11 @@ namespace Cirkus
     {
         static void Main(string[] args)
         {
+            Cirkus cirkusTwats = new Cirkus(25, 500,5 );
+            Clown c = new Clown(52, "Green", "Mr Giggles");
+            cirkusTwats.clown = c;
+
+            cirkusTwats.princess = new Princess("Princess Tinkels", "Yellow", "Red");
         }
     }
 }
